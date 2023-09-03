@@ -1,0 +1,27 @@
+{
+  "name": "npm-test",
+  "version": "0.0.0",
+  "description": "Utility to manage and access browser storage",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarthi/npm-test.git"
+  },
+  "keywords": [
+    "test",
+    "npm-test"
+  ],
+  "author": "sWaRtHi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swarthi/npm-test/issues"
+  },
+  "homepage": "https://github.com/swarthi/npm-test#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
