@@ -1,5 +1,5 @@
 {
-  "name": "npm-test",
+  "name": "@_swarthi_/npm-test",
   "version": "0.0.0",
   "description": "Utility to manage and access browser storage",
   "main": "dist/index.js",
