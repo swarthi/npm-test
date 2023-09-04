@@ -1,6 +1,6 @@
 {
   "name": "@swarthiii/npm-test",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Utility to manage and access browser storage",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
