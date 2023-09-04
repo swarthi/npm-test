@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16.x'
-          registry-url: 'https://npm.pkg.github.com'
+          registry-url: 'https://registry.npmjs.org'
           scope: '@_swarthi_'
 
       - name: Install Dependencies
@@ -26,4 +26,4 @@ jobs:
       - name: Publish to npm
         run: yarn publish --access public
         env:
-          NODE_AUTH_TOKEN: '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'
+          NODE_AUTH_TOKEN: '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'
