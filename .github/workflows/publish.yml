@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-          scope: '@_swarthi_'
+          scope: '@swarthiii'
 
       - name: Install Dependencies
         run: yarn install
