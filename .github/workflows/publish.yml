@@ -23,6 +23,9 @@ jobs:
       - name: NPM CI
         run: npm ci
 
+      - name: Install dependency
+        run: npm install
+
       - name: Publish to npm
         run: npm publish --access=public
         env:
