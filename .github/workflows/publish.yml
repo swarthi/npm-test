@@ -26,4 +26,4 @@ jobs:
       - name: Publish to npm
         run: yarn publish --access public
         env:
-          NODE_AUTH_TOKEN: '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'
+          NODE_AUTH_TOKEN: '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'
