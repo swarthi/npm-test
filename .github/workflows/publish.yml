@@ -20,10 +20,10 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           scope: '@swarthiii'
 
-      - name: Install Dependencies
-        run: yarn install
+      - name: NPM CI
+        run: npm ci
 
       - name: Publish to npm
-        run: yarn npm publish --access public
+        run: npm publish --access=public
         env:
           NODE_AUTH_TOKEN: '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'
